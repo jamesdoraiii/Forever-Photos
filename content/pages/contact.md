@@ -7,7 +7,10 @@ subtitle: Get in touch/book us for an event!
 address: Chicago, IL
 phone: 1 (463) 203-9676
 email: willsnoel@gmail.com
-locations: []
+locations:
+  - mapLink: ""
+    lat: ""
+    lng: ""
 meta:
   description: This is a meta description.
   title: Contact Page
