@@ -1,7 +1,7 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Page
+title: Contact Us
 featuredImage: https://ucarecdn.com/b412227f-05d5-47eb-9f6c-6eca16728abe/
 subtitle: Get in touch/book us for an event!
 address: Chicago, IL
