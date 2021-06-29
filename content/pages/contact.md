@@ -3,7 +3,7 @@ template: ContactPage
 slug: contact
 title: Contact Page
 featuredImage: https://ucarecdn.com/008a9058-ed1c-44c6-a785-a7bcf3818445/
-subtitle: This is the contact page subtitle.
+subtitle: Get in touch/book us for an event!
 address: 404 James St, Burleigh Heads QLD 4220
 phone: 0987 123 456
 email: example@example.com
