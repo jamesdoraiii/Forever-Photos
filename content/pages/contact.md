@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact Page
-featuredImage: https://ucarecdn.com/008a9058-ed1c-44c6-a785-a7bcf3818445/
+featuredImage: https://ucarecdn.com/b412227f-05d5-47eb-9f6c-6eca16728abe/
 subtitle: Get in touch/book us for an event!
 address: Chicago, IL
 phone: 1 (463) 203-9676
