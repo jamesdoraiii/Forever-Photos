@@ -4,13 +4,10 @@ slug: contact
 title: Contact Page
 featuredImage: https://ucarecdn.com/008a9058-ed1c-44c6-a785-a7bcf3818445/
 subtitle: Get in touch/book us for an event!
-address: 404 James St, Burleigh Heads QLD 4220
-phone: 0987 123 456
-email: example@example.com
-locations:
-  - lat: "-27.9654732"
-    lng: "153.2432449"
-    mapLink: ""
+address: Chicago, IL
+phone: 1 (463) 203-9676
+email: willsnoel@gmail.com
+locations: []
 meta:
   description: This is a meta description.
   title: Contact Page
