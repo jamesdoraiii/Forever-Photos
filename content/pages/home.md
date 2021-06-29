@@ -17,6 +17,8 @@ Yellowcake is an opinionated starter project created by [Thrive Digital](https:/
 
 View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
 
-## Prices Starting at $400!
+
+
+# Prices Starting at $400!
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
