@@ -69,6 +69,11 @@ h6 {
   margin-bottom: 0.5em;
 }
 
+h1 {
+  font-size: 2.5em !important;
+}
+
+
 pre {
   background: var(--lightGrey);
   line-height: 1.45;
