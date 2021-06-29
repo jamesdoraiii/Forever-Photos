@@ -1,9 +1,10 @@
-import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-import { stringify } from 'qs'
-import { serialize } from 'dom-form-serializer'
-
 import './Form.css'
+
+import React, { Fragment } from 'react'
+
+import Helmet from 'react-helmet'
+import { serialize } from 'dom-form-serializer'
+import { stringify } from 'qs'
 
 class Form extends React.Component {
   static defaultProps = {
@@ -94,27 +95,6 @@ class Form extends React.Component {
               <span>Lastname</span>
             </label>
           </div>
-          <fieldset>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="male"
-                defaultChecked
-              />
-              <span>Male</span>
-            </label>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="female"
-              />
-              <span>Female</span>
-            </label>
-          </fieldset>
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
@@ -124,6 +104,16 @@ class Form extends React.Component {
               required
             />
             <span>Email address</span>
+          </label>
+          <label className="Form--Label">
+            <input
+              className="Form--Input Form--InputText"
+              type="phone"
+              placeholder="Phone"
+              name="phoneNumber"
+              required
+            />
+            <span>Phone Number</span>
           </label>
           <label className="Form--Label has-arrow">
             <select
@@ -135,9 +125,9 @@ class Form extends React.Component {
               <option disabled hidden>
                 Type of Enquiry
               </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
+              <option>Request Booking</option>
+              <option>Request More Info</option>
+              
             </select>
           </label>
           <label className="Form--Label">
@@ -150,14 +140,14 @@ class Form extends React.Component {
             />
             <span>Message</span>
           </label>
-          <label className="Form--Label Form-Checkbox">
+          {/* <label className="Form--Label Form-Checkbox">
             <input
               className="Form--Input Form--Textarea Form--CheckboxInput"
               name="newsletter"
               type="checkbox"
             />
             <span>Get news updates</span>
-          </label>
+          </label> */}
           <div
             className="g-recaptcha"
             data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"
