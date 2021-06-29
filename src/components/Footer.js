@@ -1,5 +1,6 @@
-import React from 'react'
 import './Footer.css'
+
+import React from 'react'
 
 export default () => (
   <div>
@@ -11,8 +12,8 @@ export default () => (
     <footer className="footer">
       <div className="container taCenter">
         <span>
-          © Copyright {new Date().getFullYear()} All rights reserved. Crafted by{' '}
-          <a href="https://thriveweb.com.au/">Thrive</a>.
+          © Copyright {new Date().getFullYear()} All rights reserved.
+          {/* <a href="https://thriveweb.com.au/">Thrive</a>. */}
         </span>
       </div>
     </footer>

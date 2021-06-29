@@ -1,12 +1,12 @@
-import React from 'react'
-import CMS from 'netlify-cms-app'
 import './cms-utils'
 
-import { HomePageTemplate } from '../templates/HomePage'
+import { BlogIndexTemplate } from '../templates/BlogIndex'
+import CMS from 'netlify-cms-app'
 import { ComponentsPageTemplate } from '../templates/ComponentsPage'
 import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
-import { BlogIndexTemplate } from '../templates/BlogIndex'
+import { HomePageTemplate } from '../templates/HomePage'
+import React from 'react'
 import { SinglePostTemplate } from '../templates/SinglePost'
 import uploadcare from 'netlify-cms-media-library-uploadcare'
 
