@@ -3,10 +3,10 @@ template: HomePage
 slug: ''
 title: Noel Photo Booths
 featuredImage: https://ucarecdn.com/7eceee93-8dd9-450f-b180-4fb6c538f17d/
-subtitle: Subtitle here?
+subtitle: Photobooth rentals perfect for any event!
 accordion: []
 meta:
-  description: This is a meta description.
+  description: High quality photobooth rentals perfect for any event. Weddings, birthdays, corporate events, parties, and much more.
   title: Noel Photo Booths
 ---
 
