@@ -10,7 +10,7 @@ class Form extends React.Component {
   static defaultProps = {
     name: 'Simple Form Ajax',
     subject: '', // optional subject of the notification email
-    action: '',
+    action: 'https://formspree.io/f/xgedyynl',
     successMessage: 'Thanks for your enquiry, we will get back to you soon',
     errorMessage:
       'There is a problem, your message has not been sent, please try contacting us via email'
@@ -63,13 +63,13 @@ class Form extends React.Component {
           <script src="https://www.google.com/recaptcha/api.js" />
         </Helmet>
         <form 
-          method="post"
+        
           className="Form"
           name={name}
-          action="https://formspree.io/f/xgedyynl"
+          action={action}
           onSubmit={this.handleSubmit}
           <label>
-    Email
+    Email0
     <input type="email" name="_replyto" />
   </label>
           data-netlify=""
