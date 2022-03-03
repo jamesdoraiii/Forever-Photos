@@ -68,10 +68,6 @@ class Form extends React.Component {
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
-          <label>
-    Email0
-    <input type="email" name="_replyto" />
-  </label>
           data-netlify=""
           netlify-recaptcha=""
         >
