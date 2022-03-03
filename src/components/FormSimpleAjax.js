@@ -62,11 +62,16 @@ class Form extends React.Component {
         <Helmet>
           <script src="https://www.google.com/recaptcha/api.js" />
         </Helmet>
-        <form
+        <form 
+          method="post"
           className="Form"
           name={name}
-          action={action}
+          action="https://formspree.io/f/xgedyynl"
           onSubmit={this.handleSubmit}
+          <label>
+    Email
+    <input type="email" name="_replyto" />
+  </label>
           data-netlify=""
           netlify-recaptcha=""
         >
