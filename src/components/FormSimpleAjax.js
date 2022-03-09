@@ -4,7 +4,6 @@ import React, { Fragment } from 'react'
 
 import Helmet from 'react-helmet'
 import { serialize } from 'dom-form-serializer'
-import { stringify } from 'qs'
 
 class Form extends React.Component {
   static defaultProps = {
@@ -28,8 +27,10 @@ class Form extends React.Component {
     const form = e.target
     const data = serialize(form)
     this.setState({ disabled: true })
-    fetch(form.action + '?' + stringify(data), {
-      method: 'POST'
+    fetch(form.action, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
     })
       .then(res => {
         if (res.ok) {
